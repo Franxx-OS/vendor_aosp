@@ -43,7 +43,7 @@ DEBUG = False
 default_manifest = ".repo/manifest.xml"
 
 custom_local_manifest = ".repo/local_manifests/roomservice.xml"
-custom_default_revision = "thirteen"
+custom_default_revision = "13"
 custom_dependencies = "aosp.dependencies"
 org_manifest = ""  # leave empty if org is provided in manifest
 org_display = "  # needed for displaying

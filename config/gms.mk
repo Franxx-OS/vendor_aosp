@@ -4,7 +4,7 @@
 #
 
 # Google Apps
-$(call inherit-product, vendor/gms/products/gms.mk)
+$(call inherit-product-if-exists, vendor/gms/products/gms.mk)
 
 # Gboard
 PRODUCT_PRODUCT_PROPERTIES += \
