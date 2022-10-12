@@ -31,6 +31,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SimpleDeviceConfig
 
+# Franxx's Extra
+PRODUCT_PACKAGES += \
+    GameSpace
+
 # Extra tools
 PRODUCT_PACKAGES += \
     7z \
