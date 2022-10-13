@@ -15,6 +15,8 @@
 
 include vendor/aosp/config/version.mk
 
+PRODUCT_BRAND ?= FranxxOS
+
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/aosp/overlay/common
 
@@ -40,7 +42,7 @@ PRODUCT_COPY_FILES += \
 # init file
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/etc/init/init.custom-system_ext.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.custom-system_ext.rc \
-    vendor/aosp/prebuilt/common/etc/init/init.custom-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.custom-updater.rc \
+    vendor/aosp/prebuilt/common/etc/init/init.franxx-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.custom-updater.rc \
     vendor/aosp/prebuilt/common/etc/init/init.openssh.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.openssh.rc
 
 # Backup Tool

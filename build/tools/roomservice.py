@@ -48,7 +48,7 @@ custom_dependencies = "aosp.dependencies"
 org_manifest = ""  # leave empty if org is provided in manifest
 org_display = "  # needed for displaying
 
-custom_manifest = ".repo/manifests/custom.xml"
+franxx_manifest = ".repo/manifests/franxx.xml"
 hals_manifest = ".repo/manifests/hals.xml"
 
 github_auth = None
